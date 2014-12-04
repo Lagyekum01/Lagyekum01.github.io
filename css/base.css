@@ -77,3 +77,16 @@ footer {
     font-size: 12px; 
     padding: 0 10px 0 10px; 
 }
+
+@media screen and (max-width: 600px) {
+    
+    nav {
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    #content {
+        clear: left;
+        margin-left: 5%;
+        width: 90%;
+    }
