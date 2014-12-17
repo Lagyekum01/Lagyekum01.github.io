@@ -1,9 +1,8 @@
 
 
 .warpper {
-    border: 1px solid red;
     margin: 0 auto;
-    width:960px;
+   max-width: 960px;
 }
 
 * {
@@ -34,6 +33,7 @@ p {
 }
 
 header {
+    margin-bottom: 10px;
     background-color: #000000;
     color: #ffffff;
     height: 44px; 
@@ -59,7 +59,7 @@ header a {
 
 header a:link {}
 header a:visited {}
-header a:hover {
+header a:hover {}
     color: #ffffff;
 } 
 header a:active {
@@ -94,17 +94,12 @@ aside {
 footer {
     color: white; 
     background-color: black; 
-    clear: both; 
-    font-size: 12px; 
-    padding: 0 10px 0 10px; 
+    clear: both;  
 }
 
-@media screen and (max-width: 600px) {
-    
-    nav {
-        margin-left: 5%;
-        width: 90%;
-    }
+footer ul {
+    list-style-type: none;
+}
     
     #content {
         clear: left;
