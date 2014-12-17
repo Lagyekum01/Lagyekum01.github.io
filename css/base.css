@@ -1,8 +1,27 @@
+
+
+.warpper {
+    border: 1px solid red;
+    margin: 0 auto;
+    width:960px;
+}
+
 * {
     box-sizing: border-box; 
     margin: 0; 
     padding: 0;
 }
+
+.third {
+    float: left;
+    width: 33%;
+}
+
+.half {
+    float: left; 
+    width: 50%;
+}
+        
 
 body {
     font-family: georgia, serif; 
@@ -73,6 +92,8 @@ aside {
     width: 47.5%;
 }
 footer {
+    color: white; 
+    background-color: black; 
     clear: both; 
     font-size: 12px; 
     padding: 0 10px 0 10px; 
